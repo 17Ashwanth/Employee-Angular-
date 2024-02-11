@@ -10,7 +10,7 @@ export class AdminAPIService {
 
   constructor(private http:HttpClient) { }
 
-  server_URL = 'http://localhost:5300'
+  server_URL = 'https://employee-server-angular.onrender.com'
 
   public sharedData = new BehaviorSubject(false)
 
